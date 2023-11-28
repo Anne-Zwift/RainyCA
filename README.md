@@ -16,7 +16,7 @@ The site needs to have every page listed in the site architecture on your chosen
 <li>Each page should have a unique <meta name="description">, <title>, and h1 </li>
 <li>You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report </li>
 
-Level 1 Process
+<p>Level 1 Process</p>
 Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
 Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
 Use media queries to make your website responsive across screen sizes.
