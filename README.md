@@ -14,7 +14,7 @@ The site needs to have every page listed in the site architecture on your chosen
 <li>The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework </li>
 <li>The site should be WCAG compliant, and accessibility should be taken into account </li>
 <li>Each page should have a unique <meta name="description">, <title>, and h1 </li>
-<li>You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report </li>
+<p><li>You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report</li></p>
 
 <p>Level 1 Process</p>
 Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
