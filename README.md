@@ -1,6 +1,8 @@
 # RainyCA
 HTML CSS task
 
+Noen endringer her for å teste.
+
 Goal
 To put into practice everything you’ve learned about HTML and CSS over this course.
 
