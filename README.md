@@ -33,5 +33,6 @@ Submit on Moodle.
 Submission
 You need to submit the following:
 
-A link to your GitHub repository. Your last commit must be before your deadline.
+A link to your GitHub repository. 
+Your last commit must be before your deadline.
 A link to your website, live on Netlify.
