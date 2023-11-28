@@ -9,12 +9,12 @@ You must deliver a properly functioning, responsive website for the assignment b
 
 The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
 
-The HTML should be semantic and neat.
-The CSS should follow the DRY principle and be easy to read.
-The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-The site should be WCAG compliant, and accessibility should be taken into account.
-Each page should have a unique <meta name="description">, <title>, and h1.
-You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+<li>The HTML should be semantic and neat </li>
+<li>The CSS should follow the DRY principle and be easy to read </li>
+<li>The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework </li>
+<li>The site should be WCAG compliant, and accessibility should be taken into account </li>
+<li>Each page should have a unique <meta name="description">, <title>, and h1 </li>
+<li>You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report </li>
 
 Level 1 Process
 Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
