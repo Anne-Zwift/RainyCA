@@ -1,47 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-US">
   <head>
-    <meta name="description" content="Rainydays website" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainydays | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Rainydays is a website for the sale of quality jackets for all kinds of weather. We are world-leading in the use of Gore-Tex for highly durable waterproofness." />
+    <title>Rainydays jacket | Home</title>
     <link href="css/styles.css" rel="stylesheet">
-    <link href="CSS/index.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="Logo images\favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="Logo images\favicon-16x16.png"/>
     <link rel="icon" type="image/png" sizes="512x512" href="Logo images\android-chrome-512x512.png"/>
+    <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--make sure the alt tekst (picture text) is describing what's going on in the pic for non-visual users-->
     <header>
       <nav>
-      <img src="images/RainyDays_Logo.png">
+      <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
         <ul>
           <li><a href="List-of-Jackets.html" class="active">Women's</a></li>
           <li><p><a href="List-of-Jackets.html">Men's</a></p></li>
           <li><a href="About.html" class="font-color">About</a></li>
           <li><p><a href="Contact.html" class="font-color">Contact</a></p></li>
           <!--icons are not working-->
-          <li><p><a href="search.html">search icon</a></p></li>
-          <li><a href="cart.html">cart icon</a></li>
+          <li><i class="fa-solid fa-magnifying-glass" alt="magnifying-glass"></i></li>
+          <li><i class="fa-solid fa-cart-shopping" alt="cart-shopping"></i></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="background-picture-mountain" alt="great mountains and fjords">
         <!--If the image is for styling, then it should be added using CSS-->
         <h1>Pushing the Comfort Zone</h1>
         <p><h2>Plan your next adventure with RAINYDAYS</h2></p>
         <a href="List-of-Jackets.html" class="cta-button">Shop New Arrivals</a>
       </section>
-      <section>
-        <div>
-          <img src="#" alt="view over mountains and water" />
-        </div>
-      </section>
-      <section class="color-behind-jackets">
+      <p></p>
+      <section class="color-behind-jackets" alt="blue-color-behind-jackets" class="images_people-walking">
         <img src="images/RainyDays_Jacket1.jpg" alt="jacket"orange jacket />
           <p><a href="List-of-Jackets.html" class="text-jackets">Our most versatile down jacket.</a></p>
         <img src="images/RainyDays_Jacket4.jpg" alt="jacket"black jacket />
@@ -53,9 +49,11 @@
         <img src="images/RainyDays_Jacket6.jpg" alt="jacket"50 % off jacket />
           <p><a href="List-of-Jackets.html" class="text-jackets">Our warmest and softest waterproof ski/snowboard jacket.</a></p>
           <!--Text 50 % is red color-->
-          <!--If the image is for styling, then it should be added using CSS-->
+        <img src="Images/image-13-bg-picture-people-walking.jpg" alt="background picture of two people walking in the mountains" class="images_people-walking" />
+        <!--If the image is for styling, then it should be added using CSS-->
         <p class="sale">50 % off today only </p>
       </section>
+      <p></p>
       <section class="color-behind-pictures">
         <div>
           <img src="#" alt="smiling people"smiling people />
@@ -65,9 +63,10 @@
         </div>
       </section>
     </main>
+    <p></p>
   <footer>
     <!--backgroud color, helps the user see the footer-->
-    <img src="images/RainyDays_Logo.png"logo />
+    <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
     <!--the text below is between the logo and the facebook and instagram-->
     <section class="width">
       <p>We use a Gore-Tex &R; face fabric, the worldleading membrane for highly durable waterproofness.</p>
