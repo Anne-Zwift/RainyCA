@@ -3,8 +3,9 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Rainydays is a website for the sale of quality jackets for all kinds of weather. We are world-leading in the use of Gore-Tex for highly durable waterproofness." />
-    <title>Rainydays jacket | Home</title>
+    <title>Rainydays jacket | Checkout</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -23,16 +24,61 @@
             <li><p><a href="List-of-Jackets.html">Men's</a></p></li>
             <li><a href="About.html" class="font-color">About</a></li>
             <li><p><a href="Contact.html" class="font-color">Contact</a></p></li>
-            <!--icons are not working-->
+            <!--icons are not working, remember to add the number-->
             <li><i class="fa-solid fa-magnifying-glass" alt="magnifying-glass"></i></li>
             <li><i class="fa-solid fa-cart-shopping" alt="cart-shopping"></i></li>
           </ul>
         </nav>
       </header>
     <main>
+      <h1>Checkout</h1>
       <section>
-        <h1>Checkout</h1>
-        <p class="sale">50 % off today only</p>
+        <p><h2>Delivery/shipping/Payment</h1></p>
+        <p><h3>As a member, you always get free shipping.
+          Sign in or become a member to get free shipping.</h2></p>
+        <button>Delivery Address</button><button>Sign in</button>
+      </section>
+      <section>
+        <p>Your Order</p>
+        <!--clean up forms and links to text-->
+        <img src="images/RainyDays_Jacket6.jpg" alt="jacket"50 % off jacket />
+          <p><a href="List-of-Jackets.html" class="text-jackets">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</a></p>
+          <label for="name">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</label>
+            <input type="email" id="email" name="email" />
+          <p class="sale">50 % off today only</p>
+        <img src="images/RainyDays_Jacket3.jpg" alt="jacket"red jacket />
+          <p><a href="List-of-Jackets.html" class="text-jackets">Our lightest, packable waterproof jacket.</a></p>
+          <label for="name">Our lightest, packable waterproof jacket. 1299,00 NOK</label>
+          <input type="email" id="email" name="email" />
+        <form>
+          <label for="name">Products 2246,50 NOK</label>
+            <input type="text" id="text" name="text" />
+          <label for="name">Shipping 0,00 NOK</label>
+            <input type="text" id="name" name="text" />
+        <p><label for="name">VAT 224,65 NOK</label></p>
+            <input type="text" id="name" name="text" />
+        <p><label for="name">Total 2471,15 NOK</label></p>
+            <input type="text" id="name" name="text" />
+        </form>
+      </section>
+      <section class="">
+        <!--form actionbutton goes to checkout success-->
+        <form action="Checkout-Success.html" method="get">
+          <p>Delivery Address</p>
+          <p><label for="name">Mail</label></p>
+          <input type="email" id="email" name="email" />
+          <p><label for="name">First name</label></p>
+          <input type="text" id="text" name="text" />
+          <label for="name">Surname</label>
+          <input type="text" id="text" name="text" />
+          <p><label for="name">Country</label></p>
+          <input type="text" id="text" name="text" />
+          <label for="name">City</label>
+          <input type="text" id="text" name="text" />
+          <p><label for="name">Phone number</label></p>
+          <input type="tel" id="tel" name="tel" />
+          <p><button>Continue to Payment</button></p>
+        </form>
       </section>
     </main>
   <footer>
